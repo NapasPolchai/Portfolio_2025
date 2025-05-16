@@ -1,0 +1,31 @@
+// Abstracts
+@import 'abstracts/variables';
+@import 'abstracts/functions';
+@import 'abstracts/mixins';
+
+// Base styles
+@import 'base/reset';
+@import 'base/typography';
+@import 'base/base';
+
+// Layout (grid + main structural parts)
+@import 'layout/grid';
+@import 'layout/header';
+@import 'layout/navigation';
+@import 'layout/footer';
+
+// Components (if you want to separate them from layout)
+@import 'components/navigation';
+@import 'components/footer';
+
+// Pages
+@import 'pages/index';
+@import 'pages/project';
+@import 'pages/experiences';
+@import 'pages/casestudy';
+@import 'pages/contact';
+
+// Themes and utilities
+@import 'themes/theme';
+@import 'utils/spacing';
+@import 'utils/helpers';
