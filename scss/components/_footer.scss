@@ -1,0 +1,78 @@
+.components-footer {
+    background-image: url('../img/bg-hero.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 0px;
+
+    width: 100%;
+    padding: 0px;
+    box-sizing: border-box;
+
+    #footer-des {
+        font-family: Manrope;
+        color: white;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        /* 100% */
+        padding: 0px;
+        margin-top: 72px;
+        gap: 8px;
+        text-transform: uppercase;
+    }
+
+    #footer-text {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        /* 100% */
+        letter-spacing: -1.92px;
+        margin-top: -32px;
+        padding: 0px;
+    }
+
+    #footer-menu-group {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .footer-menu {
+        color: var(--WHITE, #FFF);
+
+        /* Navigation bar */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        padding: 0px;
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+
+    .footer-menu-underline {
+        color: var(--WHITE, #FFF);
+
+        /* Navigation bar */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: 24%;
+        /* 3.84px */
+        text-underline-position: from-font;
+        padding: 0px;
+        margin-bottom: 16px;
+        margin-top: 0px;
+    }
+}
