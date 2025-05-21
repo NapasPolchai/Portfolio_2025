@@ -1,0 +1,691 @@
+.page-projects {
+    background: var(--BG, #333);
+    width: 100%;
+    margin: 0px;
+
+    #title {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        /* 100% */
+        letter-spacing: -2.88px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 72px;
+    }
+
+    #title2 {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        /* 100% */
+        letter-spacing: -2.88px;
+        padding: 0px;
+        margin-bottom: 72px;
+        margin-top: 0px;
+        text-align: right;
+    }
+
+    #w-star-header {
+        margin-right: 16px;
+        margin-bottom: -0px;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    #projects-p {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        opacity: 0.48;
+    }
+
+    #projects-button {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 72px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    #w-star-projects-button {
+        margin-right: 8px;
+        margin-bottom: -2px;
+        width: 16px;
+        height: 16px;
+        opacity: 1;
+    }
+
+    .line {
+        height: 1px;
+        background-color: white;
+        margin: 0px auto;
+        margin-bottom: 32px;
+        width: calc(100% - 20px);
+        /* 10px left + 10px right */
+        opacity: 0.48;
+    }
+
+    #card-title-1 {
+        color: var(--WHITE, #FFF);
+
+        /* Section title */
+        font-family: Manrope;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 38.4px */
+        padding: 0px;
+        margin-bottom: 0px;
+    }
+
+    #card-des-1 {
+        color: var(--WHITE, #FFF);
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        opacity: 0.48;
+        padding: 0px;
+        margin-top: -6px;
+    }
+
+    #project-card-1 {
+        height: 332px;
+        width: 100%;
+        border-radius: 16px;
+        object-fit: cover;
+        object-position: center;
+        padding: 0px;
+        margin-bottom: 32px;
+    }
+
+    #card-industry-1 {
+        color: var(--WHITE, #FFF);
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: -10px;
+        margin-bottom: 0px;
+        opacity: 0.48;
+        padding: 0px;
+    }
+
+    #industry-type {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: -10px;
+        margin-bottom: 32px;
+        opacity: 1;
+    }
+
+    #projects-card-des {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 32px;
+        opacity: 0.48;
+    }
+
+    #projects-card-button {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: -20px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    //loooping text
+
+    .b-star-slider {
+        margin-right: 32px;
+        margin-top: 8px;
+        width: 24px;
+        height: 24px;
+        padding: 0px;
+        gap: 0px;
+    }
+
+    .projects-slider-wrapper {
+        overflow: hidden;
+        width: 100%;
+        white-space: nowrap;
+        margin-top: 16px;
+    }
+
+    .sliding-track {
+        display: inline-block;
+        animation: slideLoop 70s linear infinite;
+        background-color: #FFF;
+        gap: 0px;
+
+        p {
+            display: inline-block;
+            color: var(--000, #000);
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            text-transform: uppercase;
+            margin-top: 24px;
+            margin-bottom: 24px;
+            margin-right: 32px;
+            gap: 0px;
+        }
+    }
+
+    @keyframes slideLoop {
+        0% {
+            transform: translateX(0);
+        }
+
+        100% {
+            transform: translateX(-100%);
+        }
+    }
+
+    #card-title-2 {
+        color: var(--WHITE, #FFF);
+
+        /* Section title */
+        font-family: Manrope;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 38.4px */
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    #card-des-2 {
+        color: var(--WHITE, #FFF);
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        opacity: 0.48;
+        padding: 0px;
+        margin-top: 48px;
+        margin-bottom: 0px;
+    }
+
+    #card-industry-2 {
+        color: var(--WHITE, #FFF);
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 48px;
+        margin-bottom: 0px;
+        opacity: 0.48;
+        padding: 0px;
+    }
+
+    #industry-type-2 {
+        display: flex;
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: -10px;
+        margin-bottom: 0px;
+        opacity: 1;
+    }
+
+    #projects-card-des-2 {
+        display: none;
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 32px;
+        opacity: 0.48;
+    }
+
+    #projects-card-button-2 {
+        display: block;
+        text-align: right;
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: -56px;
+        margin-bottom: -72px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    .line2 {
+        height: 1px;
+        background-color: white;
+        margin: 0px auto;
+        margin-bottom: 0px;
+        width: calc(100% - 20px);
+        /* 10px left + 10px right */
+        opacity: 0.48;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    /* Desktop styles go here */
+    .page-projects {
+        background: var(--BG, #333);
+        width: 100%;
+        margin: 0px;
+
+        #title {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            /* 100% */
+            letter-spacing: -2.88px;
+            padding: 0px;
+            margin-bottom: 0px;
+            margin-top: 128px;
+        }
+
+        #title2 {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            /* 100% */
+            letter-spacing: -2.88px;
+            padding: 0px;
+            margin-bottom: 72px;
+            margin-top: 24px;
+            text-align: right;
+        }
+
+        #w-star-header {
+            margin-right: 16px;
+            margin-bottom: 20px;
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        #projects-p {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* 100% */
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            opacity: 0.48;
+        }
+
+        #projects-button {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 72px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: -88px;
+            margin-bottom: 72px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        #w-star-projects-button {
+            margin-right: 8px;
+            margin-bottom: -2px;
+            width: 16px;
+            height: 16px;
+            opacity: 1;
+        }
+
+        .line {
+            height: 1px;
+            background-color: white;
+            margin: 0px auto;
+            margin-bottom: 32px;
+            width: calc(100% - 20px);
+            /* 10px left + 10px right */
+            opacity: 0.48;
+        }
+
+        #card-title-1 {
+            color: var(--WHITE, #FFF);
+
+            /* Section title */
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            padding: 0px;
+            margin-bottom: 0px;
+        }
+
+        #card-des-1 {
+            color: var(--WHITE, #FFF);
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            opacity: 0.48;
+            padding: 0px;
+            margin-top: -6px;
+        }
+
+        #project-card-1 {
+            height: 578px;
+            width: 100%;
+            border-radius: 16px;
+            object-fit: cover;
+            object-position: center;
+            padding: 0px;
+            margin-bottom: 32px;
+            margin-top: -48px;
+        }
+
+        #card-industry-1 {
+            color: var(--WHITE, #FFF);
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-top: -240px;
+            margin-bottom: 0px;
+            opacity: 0.48;
+            padding: 0px;
+        }
+
+        #industry-type {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* 100% */
+            padding: 0px;
+            margin-top: -240px;
+            margin-bottom: 32px;
+            opacity: 1;
+        }
+
+        #projects-card-des {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* 100% */
+            padding: 0px;
+            margin-top: -200px;
+            margin-bottom: 0px;
+            opacity: 0.48;
+        }
+
+        #projects-card-button {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 72px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: -138px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        //loooping text
+
+        .b-star-slider {
+            margin-right: 32px;
+            margin-top: 8px;
+            width: 24px;
+            height: 24px;
+            padding: 0px;
+            gap: 0px;
+        }
+
+        .projects-slider-wrapper {
+            overflow: hidden;
+            width: 100%;
+            white-space: nowrap;
+            margin-top: 16px;
+        }
+
+        .sliding-track {
+            display: inline-block;
+            animation: slideLoop 70s linear infinite;
+            background-color: #FFF;
+            gap: 0px;
+
+            p {
+                display: inline-block;
+                color: var(--000, #000);
+                font-family: Manrope;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 600;
+                line-height: 120%;
+                /* 38.4px */
+                text-transform: uppercase;
+                margin-top: 24px;
+                margin-bottom: 24px;
+                margin-right: 32px;
+                gap: 0px;
+            }
+        }
+
+        @keyframes slideLoop {
+            0% {
+                transform: translateX(0);
+            }
+
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+
+        #card-title-2 {
+            color: var(--WHITE, #FFF);
+
+            /* Section title */
+            font-family: Manrope;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            padding: 0px;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        #projects-card-des-2 {
+            display: block;
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* 100% */
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 32px;
+            opacity: 0.48;
+        }
+
+        #card-des-2 {
+            color: var(--WHITE, #FFF);
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            opacity: 0.48;
+            padding: 0px;
+            margin-top: 48px;
+            margin-bottom: 0px;
+        }
+
+        #card-industry-2 {
+            color: var(--WHITE, #FFF);
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            margin-top: -220px;
+            margin-bottom: 0px;
+            opacity: 0.48;
+            padding: 0px;
+            text-align: right;
+        }
+
+        #industry-type-2 {
+            display: block;
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            /* 100% */
+            padding: 0px;
+            margin-top: -216px;
+            margin-bottom: 0px;
+            opacity: 1;
+            text-align: right;
+        }
+
+        #projects-card-button-2 {
+            display: block;
+            text-align: right;
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 72px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: -124px;
+            margin-bottom: -72px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        .line2 {
+            height: 1px;
+            background-color: white;
+            margin: 0px auto;
+            margin-bottom: 0px;
+            margin-top: -24px;
+            width: calc(100% - 20px);
+            /* 10px left + 10px right */
+            opacity: 0.48;
+        }
+    }
+
+}
