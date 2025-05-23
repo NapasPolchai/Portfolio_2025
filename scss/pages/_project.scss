@@ -1,7 +1,14 @@
 .page-projects {
-    background: var(--BG, #333);
+    background: #000;
     width: 100%;
     margin: 0px;
+
+    #projects-p-title {
+        background-image: url('../img/light-background-with-sunset-projector-lamp.jpg');
+        background-size: cover;
+        margin-bottom: 72px;
+        padding-top: 72px;
+    }
 
     #title {
         color: var(--WHITE, #FFF);
@@ -344,9 +351,16 @@
 
     /* Desktop styles go here */
     .page-projects {
-        background: var(--BG, #333);
+        background: #000;
         width: 100%;
         margin: 0px;
+
+        #projects-p-title {
+            background-image: url('../img/light-background-with-sunset-projector-lamp.jpg');
+            background-size: cover;
+            margin-bottom: 128px;
+            padding-top: 72px;
+        }
 
         #title {
             color: var(--WHITE, #FFF);
@@ -374,7 +388,7 @@
             padding: 0px;
             margin-bottom: 72px;
             margin-top: 24px;
-            text-align: right;
+            text-align: left;
         }
 
         #w-star-header {

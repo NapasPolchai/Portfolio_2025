@@ -1,0 +1,392 @@
+.page-experiences {
+    width: 100%;
+    margin: 0px;
+
+    .line {
+        height: 1px;
+        background-color: #fff;
+        margin: 0px auto;
+        margin-bottom: 32px;
+        /* 10px left + 10px right */
+        opacity: 0.48;
+    }
+
+    #exp-p-title{
+        background-image: url('../img/gradient-background-with-pink-purple-light-effect.jpg');
+        background-size: cover;
+        padding-top: 72px;
+        padding-bottom: 0px;
+    }
+
+    #title {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 48px;
+        /* 100% */
+        letter-spacing: -4%;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 128px;
+    }
+
+    #title2 {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        /* 100% */
+        letter-spacing: -4%;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: -24px;
+        text-align: right;
+    }
+
+    #w-star-header {
+        margin-right: 16px;
+        margin-bottom: -0px;
+        width: 32px;
+        height: 32px;
+        flex-shrink: 0;
+    }
+
+    #exp-p {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        opacity: 0.48;
+    }
+
+    #exp-button {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 128px;
+        gap: 8px;
+        opacity: 0.48;
+    }
+
+    #w-star-exp-button {
+        margin-right: 8px;
+        margin-bottom: -2px;
+        width: 16px;
+        height: 16px;
+        opacity: 1;
+    }
+
+    #exp-display {
+        background-color: #000;
+        padding-top: 32px;
+        padding-bottom: 32px;
+    }
+
+    #company-title {
+        font-family: Manrope;
+        color: #fff;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 24px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    #role {
+        font-family: Manrope;
+        color: #fff;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 100%;
+        /* 100% */
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        gap: 8px;
+        opacity: 0.48;
+    }
+
+    #role-display {
+        font-family: Manrope;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 100%;
+        /* 100% */
+        padding: 0px;
+        margin-top: -8px;
+        margin-bottom: 0px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    #company-des {
+        font-family: Manrope;
+        color: #fff;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 20px;
+        /* 100% */
+        padding: 0px;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        gap: 8px;
+        opacity: 0.48;
+    }
+
+    #exp-num {
+        background-image: url('../img/light-background-with-sunset-projector-lamp.jpg');
+        background-size: cover;
+        padding-top: 88px;
+        padding-bottom: 128px;
+    }
+
+    #num-t {
+        color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 80;
+        /* 95.938% */
+        letter-spacing: 0px;
+        margin-top: 0px;
+        
+        p {
+            margin-bottom: 0px;
+            margin-top: 16px;
+        }
+    }
+
+    #num-des {
+        color: var(--WHITE, #FFF);
+        text-align: center;
+
+        /* Card title */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 130%;
+        /* 20.8px */
+        text-transform: uppercase;
+        opacity: 0.48;
+    }
+}
+
+@media (min-width: 1024px) {
+
+    /* Desktop styles go here */
+    .page-experiences {
+        width: 100%;
+        margin: 0px;
+
+        #exp-p-title{
+            background-image: url('../img/gradient-background-with-pink-purple-light-effect.jpg');
+            background-size: cover;
+        }
+
+        #title {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            /* 100% */
+            letter-spacing: -2.88px;
+            padding: 0px;
+            margin-bottom: 0px;
+            margin-top: 128px;
+        }
+
+        #title2 {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            /* 100% */
+            letter-spacing: -2.88px;
+            padding: 0px;
+            margin-bottom: 128px;
+            margin-top: 24px;
+            text-align: left;
+        }
+
+        #w-star-header {
+            margin-right: 16px;
+            margin-bottom: 20px;
+            width: 48px;
+            height: 48px;
+            flex-shrink: 0;
+        }
+
+        #exp-button {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 14px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: 96px;
+            margin-bottom: 0px;
+            gap: 8px;
+            opacity: 0.48;
+            text-align: right;
+            height: 14px;
+        }
+
+        #w-star-exp-button {
+            margin-right: 8px;
+            margin-bottom: -2px;
+            width: 16px;
+            height: 16px;
+            opacity: 1;
+        }
+
+        #exp-display {
+            background-color: #000;
+            padding-top: 128px;
+            padding-bottom: 128px;
+        }
+
+        #company-title {
+            color: var(--000, #fff);
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: -28px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        #role {
+            font-family: Manrope;
+            color: #fff;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: 100%;
+            /* 100% */
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+            gap: 8px;
+            opacity: 0.48;
+            height: 0px;
+        }
+
+        #role-display {
+            font-family: Manrope;
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 100%;
+            /* 100% */
+            padding: 0px;
+            margin-top: -8px;
+            margin-bottom: 16px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        #company-des {
+            font-family: Manrope;
+            color: #fff;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 20px;
+            /* 100% */
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 24px;
+            gap: 8px;
+            opacity: 0.48;
+        }
+
+        #exp-num {
+            background-image: url('../img/light-background-with-sunset-projector-lamp.jpg');
+            background-size: cover;
+            padding-top: 88px;
+            padding-bottom: 128px;
+        }
+
+        #num-t {
+            color: var(--WHITE, #FFF);
+            text-align: center;
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 80;
+            line-height: 122.8px;
+            /* 95.938% */
+            letter-spacing: 0px;
+            margin-bottom: -16px;
+            margin-top: 0px;
+            text-align: left;
+
+            p {
+                margin-bottom: 0px;
+                margin-top: 32px;
+            }
+        }
+
+        #num-des {
+            color: var(--WHITE, #FFF);
+            text-align: left;
+
+            /* Card title */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 130%;
+            /* 20.8px */
+            text-transform: uppercase;
+            opacity: 0.48;
+            margin-bottom: 128px;
+        }
+
+    }
+
+}
