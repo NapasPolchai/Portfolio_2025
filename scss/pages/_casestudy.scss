@@ -1,0 +1,626 @@
+.page-casestudy {
+    background: #000;
+    width: 100%;
+    margin: 0px;
+
+    .line-1 {
+        height: 1px;
+        background-color: #fff;
+        margin: 0px auto;
+        margin-bottom: 48px;
+        /* 10px left + 10px right */
+        opacity: 0.48;
+    }
+
+    .line-2 {
+        height: 1px;
+        background-color: #000;
+        margin: 0px auto;
+        margin-bottom: 32px;
+        margin-top: -16px;
+        /* 10px left + 10px right */
+        opacity: 0.48;
+    }
+
+    #case-t {
+        padding: 0px;
+    }
+
+    #title {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        /* 100% */
+        letter-spacing: -2.88px;
+        padding: 0px;
+        margin-top: 0px;
+    }
+
+    #title-des {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: 72px;
+        margin-bottom: -32px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    #w-star-case-des {
+        margin-right: 8px;
+        margin-bottom: -2px;
+        width: 16px;
+        height: 16px;
+        opacity: 1;
+    }
+
+    #case-t-img {
+        background-image: url('../img/THA MOCK2.png');
+        height: 546px;
+        border-radius: 16px;
+        background-size: cover;
+        margin-top: 24px;
+        margin-bottom: 72px;
+    }
+
+    #info-h {
+        color: var(--WHITE, #FFF);
+
+        /* Card title */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 20.8px */
+        text-transform: uppercase;
+        opacity: 0.48;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+
+    #info-h-type {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    #info-des {
+        color: var(--WHITE, #FFF);
+
+        /* Paragraph */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.48;
+        margin-top: 8px;
+        margin-bottom: 72px;
+    }
+
+    #gallery-img-1 {
+        background-image: url('../img/THA MOCK2.png');
+        height: 380px;
+        border-radius: 16px;
+        background-size: cover;
+        margin-top: 8px;
+        margin-bottom: 0px;
+    }
+
+    #gallery-img-2 {
+        background-image: url('../img/THA MOCK2.png');
+        height: 546px;
+        border-radius: 16px;
+        background-size: cover;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #gallery-img-3 {
+        display: none;
+
+        background-image: url('../img/THA MOCK2.png');
+        height: 546px;
+        border-radius: 16px;
+        background-size: cover;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+
+    #challenge-h {
+        color: var(--WHITE, #FFF);
+
+        /* Card title */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 130%;
+        /* 20.8px */
+        text-transform: uppercase;
+        opacity: 0.48;
+        margin-bottom: 0px;
+        margin-top: 72px;
+    }
+
+    #challenge-h-type {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 28.8px */
+        text-transform: uppercase;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+
+    #challenge-des {
+        color: var(--WHITE, #FFF);
+
+        /* Paragraph */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.48;
+        margin-top: 8px;
+        margin-bottom: 72px;
+    }
+
+    #other-case {
+        background: #fff;
+        width: 100%;
+        margin: 0px;
+    }
+
+    #other-case-h {
+        color: var(--000, #000);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        /* 100% */
+        letter-spacing: -2.88px;
+        margin-top: 72px;
+        margin-bottom: 48px;
+    }
+
+    #other-case-id {
+        color: var(--000, #000);
+        margin-bottom: 0px;
+        margin-top: 0px;
+
+        /* Section title */
+        font-family: Manrope;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        /* 38.4px */
+    }
+
+    #other-case-des-1 {
+        color: var(--000, #000);
+        margin-bottom: 0px;
+        margin-top: -8px;
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        opacity: 0.48;
+    }
+
+    #other-case-img {
+        background-image: url('../img/MedPark4.png');
+        height: 354px;
+        border-radius: 16px;
+        background-size: cover;
+        margin-top: 24px;
+        margin-bottom: 0px;
+    }
+
+    #other-case-industry-h {
+        color: var(--000, #000);
+        margin-bottom: 0px;
+        margin-top: 24px;
+
+        /* Title description */
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        opacity: 0.48;
+    }
+
+    #other-case-industry-id {
+        color: var(--000, #000);
+        margin-top: -12px;
+        margin-bottom: 32px;
+
+        /* Paragraph */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    #other-case-des-2 {
+        color: var(--000, #000);
+        margin-bottom: 0px;
+        margin-top: -8px;
+
+        /* Paragraph */
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        opacity: 0.48;
+    }
+
+    #case-button {
+        font-family: Manrope;
+        color: #000;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: 72px;
+        text-transform: uppercase;
+        /* 100% */
+        padding: 0px;
+        margin-top: 24px;
+        margin-bottom: 72px;
+        gap: 8px;
+        opacity: 1;
+    }
+
+    #b-star-case-button {
+        margin-right: 8px;
+        margin-bottom: -2px;
+        width: 16px;
+        height: 16px;
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1024px) {
+    .page-casestudy {
+        background: #000;
+        width: 100%;
+        margin: 0px;
+
+        .line-1 {
+            height: 1px;
+            background-color: #fff;
+            margin: 0px auto;
+            margin-bottom: 48px;
+            /* 10px left + 10px right */
+            opacity: 0.48;
+        }
+
+        .line-2 {
+            height: 1px;
+            background-color: #000;
+            margin: 0px auto;
+            margin-bottom: 32px;
+            margin-top: -16px;
+            /* 10px left + 10px right */
+            opacity: 0.48;
+        }
+
+        #case-t {
+            padding: 0px;
+        }
+
+        #title {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 128px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 122.8px;
+            /* 95.938% */
+            letter-spacing: -5.12px;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 72px;
+        }
+
+        #title-des {
+            font-family: Manrope;
+            color: #FFF;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 72px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: 128px;
+            margin-bottom: -32px;
+            gap: 8px;
+            opacity: 1;
+        }
+    
+        #w-star-case-des {
+            margin-right: 8px;
+            margin-bottom: -2px;
+            width: 16px;
+            height: 16px;
+            opacity: 1;
+        }
+
+        #case-t-img {
+            background-image: url('../img/THA MOCK2.png');
+            height: 900px;
+            border-radius: 16px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 72px;
+        }
+
+        #info-h {
+            color: var(--WHITE, #FFF);
+
+            /* Card title */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            /* 20.8px */
+            text-transform: uppercase;
+            opacity: 0.48;
+            margin-bottom: 0px;
+            margin-top: 0px;
+        }
+
+        #info-h-type {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            text-transform: uppercase;
+            margin-top: -8px;
+            margin-bottom: 16px;
+        }
+
+        #info-des {
+            color: var(--WHITE, #FFF);
+
+            /* Paragraph */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.48;
+            margin-top: -8px;
+            margin-bottom: 96px;
+        }
+
+        #gallery-img-1 {
+            background-image: url('../img/THA MOCK2.png');
+            height: 900px;
+            border-radius: 16px;
+            background-size: cover;
+            margin-top: 8px;
+            margin-bottom: 0px;
+        }
+
+        #gallery-img-2 {
+            background-image: url('../img/THA MOCK2.png');
+            height: 938px;
+            border-radius: 16px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #gallery-img-3 {
+            display: block;
+
+            background-image: url('../img/THA MOCK2.png');
+            height: 938px;
+            border-radius: 16px;
+            background-size: cover;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        #challenge-h {
+            color: var(--WHITE, #FFF);
+
+            /* Card title */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 130%;
+            /* 20.8px */
+            text-transform: uppercase;
+            opacity: 0.48;
+            margin-bottom: 0px;
+            margin-top: 128px;
+        }
+
+        #challenge-h-type {
+            color: var(--WHITE, #FFF);
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+            text-transform: uppercase;
+            margin-top: -8px;
+            margin-bottom: 16px;
+        }
+
+        #challenge-des {
+            color: var(--WHITE, #FFF);
+    
+            /* Paragraph */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.48;
+            margin-top: 8px;
+            margin-bottom: 128px;
+        }
+
+        #other-case {
+            background: #fff;
+            width: 100%;
+            margin: 0px;
+        }
+
+        #other-case-h {
+            color: var(--000, #000);
+            font-family: Manrope;
+            font-size: 72px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 72px;
+            /* 100% */
+            letter-spacing: -2.88px;
+            margin-top: 72px;
+            margin-bottom: 48px;
+        }
+
+        #other-case-id {
+            color: var(--000, #000);
+            margin-bottom: 0px;
+            margin-top: 48px;
+
+            /* Section title */
+            font-family: Manrope;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: 120%;
+            /* 38.4px */
+        }
+
+        #other-case-des-1 {
+            color: var(--000, #000);
+            margin-bottom: 0px;
+            margin-top: -8px;
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            opacity: 0.48;
+        }
+
+        #other-case-img {
+            background-image: url('../img/MedPark4.png');
+
+            height: 578px;
+            width: 100%;
+            border-radius: 16px;
+            object-fit: cover;
+            object-position: center;
+            padding: 0px;
+            margin-bottom: 32px;
+            margin-top: -48px;
+        }
+
+        #other-case-industry-h {
+            color: var(--000, #000);
+            margin-bottom: 0px;
+            margin-top: -240px;
+
+            /* Title description */
+            font-family: Manrope;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 300;
+            line-height: normal;
+            opacity: 0.48;
+        }
+
+        #other-case-industry-id {
+            color: var(--000, #000);
+            margin-top: -240px;
+            margin-bottom: 32px;
+
+            /* Paragraph */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        #other-case-des-2 {
+            color: var(--000, #000);
+            margin-top: -200px;
+
+            /* Paragraph */
+            font-family: Manrope;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+        }
+
+        #case-button {
+            font-family: Manrope;
+            color: #000;
+            font-size: 14px;
+            font-style: normal;
+            font-weight: 200;
+            line-height: 72px;
+            text-transform: uppercase;
+            /* 100% */
+            padding: 0px;
+            margin-top: -138px;
+            margin-bottom: 128px;
+            gap: 8px;
+            opacity: 1;
+        }
+
+        #b-star-case-button {
+            margin-right: 8px;
+            margin-bottom: -2px;
+            width: 16px;
+            height: 16px;
+            opacity: 1;
+        }
+    }
+}
