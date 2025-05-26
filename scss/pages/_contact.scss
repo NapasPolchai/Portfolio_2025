@@ -1,0 +1,273 @@
+.page-contact {
+    width: 100%;
+    margin: 0px;
+    background-image: url('../img/gradient-background-with-pink-purple-light-effect-m.jpg');
+    background-size: cover;
+
+    #send-button {
+        color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 120%;
+        width: 220px;
+        height: 70px;
+        flex-shrink: 0;
+        background-color: rgba(0, 0, 0, 0.0);
+        border: 1px solid white;
+        border-radius: 60px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-top: 48px;
+      }
+      
+      #send-button:hover {
+        background-color: white;
+        color: black;
+      }
+      
+
+
+
+    .line {
+        height: 1px;
+        background-color: #fff;
+        margin: 0px auto;
+        margin-bottom: 32px;
+        opacity: 0.48;
+    }
+
+    .line-2 {
+        height: 1px;
+        background-color: #fff;
+        margin: 0px auto;
+        margin-top: -24px;
+        margin-bottom: 32px;
+        opacity: 0.48;
+    }
+
+    #contact-p-title {
+        margin-bottom: 72px;
+        padding-top: 72px;
+    }
+
+    #title {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -2.88px;
+        padding: 0px;
+        margin-bottom: 0px;
+        margin-top: 72px;
+    }
+
+    #title2 {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 72px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 72px;
+        letter-spacing: -2.88px;
+        padding: 0px;
+        margin-bottom: 72px;
+        margin-top: 0px;
+        text-align: right;
+    }
+
+    #w-star-header {
+        margin-right: 16px;
+        margin-bottom: -0px;
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
+    }
+
+    #contact-p {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 72px;
+        opacity: 1;
+    }
+
+    .underline {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-decoration-line: underline;
+        text-decoration-style: solid;
+        text-decoration-skip-ink: none;
+        text-decoration-thickness: auto;
+        text-underline-offset: 24%;
+        text-underline-position: from-font;
+        opacity: 1;
+    }
+
+    .low-op {
+        font-family: Manrope;
+        color: #FFF;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        padding: 0px;
+        margin-top: 0px;
+        margin-bottom: 72px;
+        opacity: 0.48;
+    }
+
+    #form-title {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 120%;
+        text-transform: uppercase;
+        margin-top: -32px;
+        margin-bottom: 48px;
+    }
+
+    #form-q {
+        color: var(--WHITE, #FFF);
+        font-family: Manrope;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 0px;
+        margin-bottom: 8px;
+    }
+
+    #form-a {
+        display: none;
+    }
+
+    input,
+    textarea {
+        width: 100%;
+        background: transparent;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.48);
+        color: #fff;
+        font-family: Manrope;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 8px 0;
+        margin-bottom: 32px;
+        outline: none;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        color: rgba(255, 255, 255, 0.48);
+    }
+
+    textarea {
+        resize: vertical;
+        min-height: 100px;
+    }
+
+    #form-2 {
+        margin-top: 72px;
+        margin-bottom: 128px;
+    }
+}
+
+/* Desktop layout */
+@media (min-width: 1024px) {
+    .page-contact {
+        .line {
+            margin-bottom: 128px;
+        }
+
+        .line-2 {
+            margin-top: -24px;
+            margin-bottom: 32px;
+        }
+
+        #contact-p-title {
+            margin-bottom: 72px;
+            padding-top: 72px;
+        }
+
+        #title {
+            font-size: 128px;
+            line-height: 122.8px;
+            letter-spacing: -5.12px;
+            margin-top: 72px;
+        }
+
+        #title2 {
+            font-size: 128px;
+            line-height: 122.8px;
+            letter-spacing: -5.12px;
+            margin-bottom: 128px;
+            text-align: left;
+        }
+
+        #contact-p {
+            margin-top: 48px;
+            margin-bottom: 72px;
+        }
+
+        #form-title {
+            font-size: 32px;
+            margin-bottom: 0px;
+        }
+
+        #form-q {
+            font-size: 14px;
+            margin-top: -24px;
+        }
+
+        input,
+        textarea {
+            font-size: 16px;
+        }
+
+        #form-2 {
+            margin-top: 128px;
+            margin-bottom: 128px;
+        }
+    }
+
+    #send-button {
+        color: var(--WHITE, #FFF);
+        text-align: center;
+        font-family: Manrope;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 120%;
+        width: 220px;
+        height: 70px;
+        flex-shrink: 0;
+        background-color: rgba(0, 0, 0, 0.0);
+        border: 1px solid white;
+        border-radius: 60px;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+        margin-top: 24px;
+      }
+      
+      #send-button:hover {
+        background-color: white;
+        color: black;
+      }
+}
