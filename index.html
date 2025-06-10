@@ -16,12 +16,62 @@
 
 <body class="page-index">
 
-
-    <header>
-        <nav>
-            <!-- Navigation content -->
+    <div class="grid-con">
+        <nav class="navigation" id="navigation">
+            <div class="navigation__logo">
+                <a href="./index.html">
+                    <img src="img/logo-w.svg" alt="Napas Portfolio">
+                </a>
+            </div>
+            <ul class="navigation__links">
+                <li>
+                    <a href="./projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="./experiences.html">Experiences</a>
+                </li>
+                <li>
+                    <a href="./contact.html">Contact</a>
+                </li>
+            </ul>
+    
+            <div class="navigation__hamburger" id="hamburgerIcon">
+                <div class="hamburger__bar--top"></div>
+                <div class="hamburger__bar--middle"></div>
+                <div class="hamburger__bar--bottom"></div>
+            </div>
         </nav>
-    </header>
+    </div>
+
+    
+
+    <div class="mobile-navigation" id="mobileNavigation">
+        <ul class="mobile-navigation__links">
+            <li>
+                <a href="./projects.html">Projects</a>
+            </li>
+            <li>
+                <a href="./experiences.html">Experiences</a>
+            </li>
+        </ul>
+
+        <div class="mobile-navigation__profile">
+            <div>
+                <img src="./img/profile_image.jpg" alt="">
+            </div>
+            <span>Let's work</span>
+        </div>
+
+        <ul class="mobile-navigation__contact-info">
+            <li>
+                <a href="mailto:polchai.napas@gmail.com">polchai.napas@gmail.com</a>
+            </li>
+            <li>
+                <a href="tel:+14163026763">+1 (416) 302 6763</a>
+            </li>
+        </ul>
+    </div>
+
 
     <section id="hero">
         <div class="grid-con">
@@ -187,10 +237,10 @@
             solutions. Empathy guides my process, ensuring I understand and address user needs effectively.
         </p>
 
-        <p id="exp-button" class="grid-column col-start-9 col-end-13 m-col-span-full">
+        <a id="exp-button" class="grid-column col-start-9 col-end-11 m-col-span-full" href="experiences.html">
             <img src="img/b-star.svg" alt="" id="b-star-exp-button">
             My Experiences
-        </p>
+        </a>
     </section>
 
     <section class="grid-con">
@@ -202,7 +252,7 @@
         </div>
     </section>
     <div class="grid-con">
-        <p id="projects-button" class="grid-column col-start-1 col-end-8 m-col-span-full">
+        <p id="projects-button" class="grid-column col-start-1 col-end-3 m-col-span-full">
             <img src="img/b-star.svg" alt="" id="b-star-projects-button">
             Explore my projects
         </p>
@@ -210,66 +260,69 @@
 
 
 
-    <section id="projects" class="grid-con">
-        <img src="img/THA MOCK2.png" alt="" class="project-img-home grid-column col-start-1 col-end-13 m-col-span-full">
+    <section id="projects">
 
-        <p id="projects-t" class="grid-column col-start-1 col-end-13 m-col-span-full">
-            Project ID
-        </p>
-
-        <p id="projects-t-des" class="grid-column col-start-1 col-end-6 m-col-span-full">
-            Project Category
-        </p>
-
-        <p id="projects-des" class="grid-column col-start-6 col-end-13 m-col-span-full">
-            With four years of experience as a graphic designer before transitioning to UI design, I bring a strong
-            foundation in creativity and design. My passion for art drives me to create user-focused, visually appealing
-            solutions. Empathy guides my process, ensuring I understand and address user needs effectively.
-        </p>
-
-
-
-
-
-        <div class="col-start-1 col-end-5 m-col-span-full" id="cards-group">
-
+        <a href="casestudy.html" class="grid-con" id="main-project">
             <img src="img/THA MOCK2.png" alt=""
-                class="project-cards-home grid-column col-start-1 col-end-5 m-col-span-full">
+                class="project-img-home grid-column col-start-1 col-end-13 m-col-span-full" href="casestudy.html">
 
-            <p id="projects-t" class="grid-column col-start-1 col-end-5 m-col-span-full">
+            <p id="projects-t" class="grid-column col-start-1 col-end-13 m-col-span-full">
                 Project ID
             </p>
 
-        </div>
-
-        <div class="col-start-5 col-end-9 m-col-span-full" id="cards-group">
-
-            <img src="img/THA MOCK2.png" alt=""
-                class="project-cards-home grid-column col-start-5 col-end-9 m-col-span-full">
-
-            <p id="projects-t" class="grid-column col-start-5 col-end-9 m-col-span-full">
-                Project ID
+            <p id="projects-t-des" class="grid-column col-start-1 col-end-6 m-col-span-full">
+                Project Category
             </p>
-        </div>
 
-        <div class="col-start-9 col-end-13 m-col-span-full" id="cards-group">
-
-            <img src="img/THA MOCK2.png" alt=""
-                class="project-cards-home grid-column col-start-9 col-end-13 m-col-span-full">
-
-            <p id="projects-t" class="grid-column col-start-9 col-end-13 m-col-span-full">
-                Project ID
+            <p id="projects-des" class="grid-column col-start-6 col-end-13 m-col-span-full">
+                With four years of experience as a graphic designer before transitioning to UI design, I bring a strong
+                foundation in creativity and design. My passion for art drives me to create user-focused, visually
+                appealing
+                solutions. Empathy guides my process, ensuring I understand and address user needs effectively.
             </p>
+        </a>
+
+        <div class="grid-con">
+            <a class="col-start-1 col-end-5 m-col-span-full" id="cards-group" href="casestudy.html">
+
+                <img src="img/THA MOCK2.png" alt=""
+                    class="project-cards-home grid-column col-start-1 col-end-5 m-col-span-full">
+
+                <p id="projects-t" class="grid-column col-start-1 col-end-5 m-col-span-full">
+                    Project ID
+                </p>
+
+            </a>
+
+            <a class="col-start-5 col-end-9 m-col-span-full" id="cards-group" href="casestudy.html">
+
+                <img src="img/THA MOCK2.png" alt=""
+                    class="project-cards-home grid-column col-start-5 col-end-9 m-col-span-full">
+
+                <p id="projects-t" class="grid-column col-start-5 col-end-9 m-col-span-full">
+                    Project ID
+                </p>
+
+            </a>
+
+            <a class="col-start-9 col-end-13 m-col-span-full" id="cards-group" href="casestudy.html">
+
+                <img src="img/THA MOCK2.png" alt=""
+                    class="project-cards-home grid-column col-start-9 col-end-13 m-col-span-full">
+
+                <p id="projects-t" class="grid-column col-start-9 col-end-13 m-col-span-full">
+                    Project ID
+                </p>
+
+            </a>
+
+            <a id="case-button" class="grid-column col-start-1 col-end-3 m-col-span-full" href="projects.html">
+                <img src="img/b-star.svg" alt="" id="b-star-case-button">
+                See all cases
+            </a>
         </div>
 
 
-
-
-
-        <p id="case-button" class="grid-column col-start-1 col-end-13 m-col-span-full">
-            <img src="img/b-star.svg" alt="" id="b-star-case-button">
-            See all cases
-        </p>
     </section>
 
     <footer class="components-footer">
